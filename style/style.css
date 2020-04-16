@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #fbefc7, #fbefc7) ;
+  background-size: 100%;
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+  -webkit-font-smoothing:antialiased;
+
+  font-family: 'Amatic SC', cursive;
+  font-size: 18px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px 0;
+}
+
+*,
+*:before,
+*:after{
+     box-sizing: border-box;
+}
+
+
+/*LEMON
+==============*/
+#lemon {
+
+  cursor: pointer;
+}
+
+.lemon_position{
+	position:absolute;
+	 	top:0;
+	    left:0;
+	    z-index:1000;
+	   text-align: center;
+	   margin: 150px 0 0 30px;
+}
+
+.lemon_text{
+	text-align: left;
+	position:absolute;
+	 	top:0;
+	    left:0;
+	    z-index:1000;
+	   text-align: center;
+	margin: 130px 0 0 83px;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+
+
+/*HEADER
+==============*/
+.header{
+
+	width:100%;
+    height:100px;
+
+    border-bottom: 1px solid #fff;
+	
+}
+
+.header_inner{
+
+  	justify-content: space-between;
+  	padding: 30px 0;
+  	text-align: center;
+	
+}
+.header_title{
+	text-align: center;
+
+
+	
+	font-weight: 300;
+	font-family: 'Mali', cursive;
+	font-size: 36px;
+}
+
+
+
+/*DESCRIPTION
+==============*/
+.description{
+	height:300px;
+	width: 100%;
+
+
+	padding: 50px 0 70px;
+
+}
+.description_inner{
+	text-align: center;
+	margin-right: 30px;
+	justify-content: space-between;
+	font-weight: 300;
+	font-family: 'Mali', cursive;
+	font-size: 30px;
+}
+
+
+
+
+
+/*REFS
+==============*/
+.my_refs{
+  display: flex;
+justify-content: center;
+    align-items: center;
+}
+.my_link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width: 300px;
+
+    margin-right: 20px;
+    
+
+transition:  background 0.2s linear;
+}
+
+/* d25642 
+f99b48*/
+.my_link:hover .my_icon{
+    fill: #f0ae00;
+}
+.my_icon{
+    fill:#000;
+    height:200px;
+    display: block;
+}
